@@ -424,6 +424,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-radius: 1rem;
   }
 
+  .banner-img img {
+    width: 70%;
+  }
+
 
 
 
@@ -431,7 +435,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width: 765px) {
   .banner-img img {
-    width: 100% !important;
+    width: 75% !important;
   }
 }
 
