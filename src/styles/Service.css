@@ -1,0 +1,65 @@
+.Resume-container {
+  margin: 3.5rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/Resume-background.jpg");
+  height: 75vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Resume-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.info-Resume h1 {
+  font-size: 3rem;
+}
+
+.icon-section ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+}
+
+.icon-section ul li {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.icon-section ul li img {
+  width: 50px;
+  border: 2px solid #fff;
+  padding: 5px;
+}
+
+.icon-section ul li img:hover {
+  border: 1px solid #e32222;
+}
+
+@media (max-width: 765px) {
+  .info-Resume p {
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width:800px) {
+  .info-Resume h1 {
+    font-size: 2.5rem;
+  }
+
+  .Resume-inner {
+    padding: 0 1.5rem;
+  }
+
+  .icon-section ul {
+    padding-right: 3rem;
+  }
+
+}

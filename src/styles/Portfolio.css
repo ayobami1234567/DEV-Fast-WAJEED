@@ -1,0 +1,77 @@
+/* .con-container {
+  padding: 0;
+} */
+
+.nav {
+  background: #f12473;
+  padding: 0.5rem 3rem !important;
+}
+
+.headpage .title-name {
+  font-size: 3rem;
+}
+
+.ban-container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* .profile-img {
+  width: 450px;
+} */
+
+.mind {
+  font-size: 2rem;
+}
+
+.headpage p {
+  padding-right: 2.5rem;
+}
+
+.download-btn {
+  background: #f12473;
+  padding: 0.625rem 2rem;
+}
+
+.skill-show {
+  background-color: #131836;
+}
+
+/* 
+@media (min-width:1700px) {
+  .profile-img {
+    width: 300px;
+  }
+
+
+} */
+
+@media (max-width:800px) {
+
+  .profile-img {
+    width: 100%;
+  }
+
+  .nav {
+    background: #f12473;
+    padding: 0.5rem 1rem !important;
+  }
+
+
+  #home {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 8.5rem;
+  }
+
+
+
+  .banner-img {
+    margin-top: 4em;
+  }
+
+  .dec {
+    padding: 0 !important;
+  }
+
+}
